@@ -677,7 +677,7 @@
 		var last = this.input.prop('value'),
 			value = leadingZero(this.hours) + ':' + leadingZero(this.minutes);
 		if  (this.options.twelvehour) {
-			value = value + this.amOrPm;
+			value = value + " " + this.amOrPm;
 		}
 		
 		this.input.prop('value', value);
